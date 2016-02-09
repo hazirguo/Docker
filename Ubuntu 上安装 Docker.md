@@ -81,7 +81,7 @@ Docker 的 apt 库包含了 Docker 1.7.1 以及更高版本：
 使用 `apt-get` 更新 Docker 到最新版：
 
 ```
-$ sudo apt-get install docker.io
+$ sudo apt-get install docker-engine
 ```
 
 # 卸载
@@ -89,13 +89,13 @@ $ sudo apt-get install docker.io
 如果卸载 Docker 安装包：
 
 ```
-$ sudo apt-get purge docker.io
+$ sudo apt-get purge docker-engine
 ```
 
 如果卸载 Docker 包及其依赖包：
 
 ```
-$ sudo apt-get autoremove --purge docker.io
+$ sudo apt-get autoremove --purge docker-engine
 ```
 
 上面的命令不会删除镜像、容器、卷等数据，如果你想移除这些，运行下面的命令：
